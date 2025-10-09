@@ -1,0 +1,29 @@
+{
+  "name": "salesforce-files-export",
+  "version": "1.0.0",
+  "description": "CLI tool to export files from Salesforce ContentDocument records",
+  "main": "src/index.js",
+  "bin": {
+    "sf-export": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "keywords": [
+    "salesforce",
+    "export",
+    "cli",
+    "files",
+    "content"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "jsforce": "^1.11.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
